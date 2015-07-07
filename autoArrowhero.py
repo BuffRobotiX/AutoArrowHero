@@ -3,7 +3,6 @@ from PIL import ImageGrab as ig
 from PIL import Image as im
 from threading import *
 from Queue import *
-import time
 
 #Load the images and grab the color from the center
 right = im.open("right.png").load()[30, 30]
